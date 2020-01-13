@@ -20,7 +20,7 @@ import com.gwh.customview.R;
 public class MyViewPager extends ViewGroup {
     private static final String TAG = "MyViewPager";
     private Context mContext;
-    private int[] images = {R.mipmap.a, R.mipmap.b, R.mipmap.c};
+    private int[] images = {R.mipmap.a, R.mipmap.b, R.mipmap.a};
     private GestureDetector mGestureDetector;
     private Scroller mScroller;
     private int position;
